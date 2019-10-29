@@ -1,0 +1,60 @@
+* {
+  margin: 0;
+  padding: 0; }
+
+body {
+  line-height: 1.6; }
+
+.header {
+  font-size: 10px;
+  opacity: 0.71;
+  color: #d7794a;
+  font-family: "Myriad Pro";
+  text-transform: uppercase;
+  letter-spacing: 0.63px;
+  margin: 20px 30px; }
+
+.intro {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  min-height: 636px;
+  background: url(img/logo.jpg) center no-repeat;
+  background-size: cover; }
+  .intro .intro__line {
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.3); }
+    .intro .intro__line .line__nav {
+      text-transform: uppercase;
+      font-size: 15px;
+      margin-left: 30px;
+      display: flex;
+      justify-content: flex-start; }
+      .intro .intro__line .line__nav .nav__link {
+        color: #e8e6e6;
+        font-family: "Myriad Pro";
+        text-decoration: none;
+        padding: 13px 10px;
+        transition: color .3s linear; }
+        .intro .intro__line .line__nav .nav__link:hover {
+          color: black;
+          background-color: #00b4f0a4; }
+
+.intro__titel {
+  position: absolute;
+  bottom: 50px;
+  right: 50px; }
+  .intro__titel .titel__one {
+    color: #fcf9f7;
+    font-family: Baskerville;
+    font-size: 72px;
+    font-weight: 400;
+    text-transform: uppercase; }
+  .intro__titel .titel__two {
+    color: #d7794a;
+    font-family: Athelas;
+    font-size: 48px;
+    font-weight: 400;
+    text-transform: uppercase; }
+
+/*# sourceMappingURL=style.css.map */

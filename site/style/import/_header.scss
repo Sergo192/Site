@@ -1,0 +1,20 @@
+@import '../variable/variable';
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    line-height: 1.6;
+}
+
+.header {
+    font-size: 10px;
+    opacity: 0.71;
+    color: #d7794a;
+    font-family: $font-family;
+    text-transform: $text-transform;
+    letter-spacing: 0.63px;
+    margin: 20px 30px;
+}
